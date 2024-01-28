@@ -1,0 +1,31 @@
+<!-- templates/cookbook/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookbook Index</title>
+</head>
+<body>
+    <header>
+        <h1>Cookbook</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'recipes_without_product' product_id=1 %}">Recipes Without Product</a></li>
+                <!-- Add other navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Welcome to the Cookbook</h2>
+        <p>Explore and manage your recipes and products.</p>
+        <!-- Add more content as needed -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cookbook. All rights reserved.</p>
+    </footer>
+</body>
+</html>
